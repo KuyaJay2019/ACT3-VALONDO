@@ -57,7 +57,7 @@ $(function(){
 
         console.log(count);
       } catch(err){
-        alert(err);
+        alert('ERROR');
         jokeButtonDisabled(false);
         jokeLoader.hide();
       }
